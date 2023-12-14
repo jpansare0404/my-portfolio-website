@@ -1,0 +1,44 @@
+.DIY EXPERT {
+    background-color: #74a1ca
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: #d8e4e1
+}
+
+h1 {
+    font: size 24 px;
+    width: 60 px;
+    font-style: bold;
+    color: #2d5f72
+}
+
+p {
+    font-size: 16px;
+    width: 1.5;
+    font-style: bold;
+    color: #000000;
+}
+
+a {
+    color: #334899;
+    text-decoration: none;
+    /* No underlining */
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    /* Underlining when hovering over a link */
+}
+
+/* https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css */
+
+/* 
+colors used:
+primary color (Blue): #08a4a7;
+secondary color (light blue): #489c79
+background color : #90e0ef
+*/

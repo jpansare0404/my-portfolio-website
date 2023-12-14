@@ -1,0 +1,60 @@
+
+
+#d3f0ea - background color
+#7482b8 Text H1
+#74a1ca P1 
+#7482b8 links
+
+
+Primaty	376384
+Secondy 3A4BD
+
+
+Colors used:
+Primary Color (Blue): #376384;
+Secondary Color (light blue): #489c79
+background-color #90e0ef
+
+
+New color
+Color	Hex	RGB
+#d7f2e6	(215,242,230)
+#75c9d2	(117,201,210)
+#fdfad6	(253,250,214)
+#2d5f72	(45,95,114)
+#000000	(0,0,0)
+
+
+
+
+
+body {
+  background-color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+  font-size: 16px; /* Sets the font size to 16px */
+  font-weight: 300; /* Sets the font weight to 300 */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #4a4a4a;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.4;
+}
+h1 {
+  font-size: 2.75em;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
