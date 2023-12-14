@@ -1,44 +1,38 @@
-.DIY EXPERT {
-    background-color: #74a1ca
+body {
+    background-color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    /* Sets the font size to 16px */
+    font-weight: 300;
+    /* Sets the font weight to 300 */
+    line-height: 1.6;
+    /* Sets the line-height to 1.6 * the font-size */
+    color: #4a4a4a;
 }
 
-body {
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    background-color: #d8e4e1
+h1,
+h2,
+h3,
+h4 {
+    line-height: 1.4;
 }
 
 h1 {
-    font: size 24 px;
-    width: 60 px;
-    font-style: bold;
-    color: #2d5f72
+    font-size: 2.75em;
+    font-weight: 700;
 }
 
-p {
-    font-size: 16px;
-    width: 1.5;
-    font-style: bold;
-    color: #000000;
+h2 {
+    font-size: 2.25em;
+    font-weight: 700;
 }
 
-a {
-    color: #334899;
-    text-decoration: none;
-    /* No underlining */
+h3 {
+    font-size: 1.75em;
+    font-weight: 400;
 }
 
-a:hover {
-    color: #ffffff;
-    text-decoration: none;
-    /* Underlining when hovering over a link */
+h4 {
+    font-size: 1.35em;
+    font-weight: 400;
 }
-
-/* https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css */
-
-/* 
-colors used:
-primary color (Blue): #08a4a7;
-secondary color (light blue): #489c79
-background color : #90e0ef
-*/
