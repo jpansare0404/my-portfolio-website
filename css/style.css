@@ -13,14 +13,17 @@ padding: 10px 5px 15px 5px; /* Adds 10px top, 5px right, 15px bottom, 5px left *
     border-bottom: 3px solid #302e2e;
 }
 header {
-    background-color: #a09be7;
+    background-color:rgb(135, 179, 240);
        text-align: center;
     padding: 10px 0;
   }
 #hero h1 {
     text-align: center; /* Centers text */
   }
-  nav > ul {
+    .center {
+    text-align: center;
+  }
+    nav > ul {
     list-style-type: none;
     padding: 0;
     
@@ -66,9 +69,6 @@ body {
     /* Sets the line-height to 1.6 * the font-size */
     color: #4a4a4a;
 }
-.center {
-    text-align: center;
-  }
 h1,
 h2,
 h3,
@@ -110,7 +110,7 @@ a:hover {
 
 a:visited {
     /* visited link */
-    color: #ff7f50;
+    color: #fafcfb;
 }
 
 a:active {
@@ -121,7 +121,7 @@ a:active {
 .button {
     display: inline-block;
     /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-    background-color: #2b44b6;
+    background-color: rgb(101, 137, 190);
     color: #ffffff;
     /* needed to override the default link color */
     font-weight: 400;
