@@ -6,15 +6,15 @@ header {
     background-color: #7867c4;
     padding: 10px;/* Adds a 10px inner spacing to all sides */
     padding-top: 10px;
-padding-right: 5px;/* Adds 10px to top & bottom and 5px to left and right */
-padding-bottom: 15px;
-padding-left: 5px;
     margin: 10px;/* Adds 10px top, 5px right, 15px bottom, 5px left */
-    border-bottom: 3px solid #4a4a4a;
+    padding: 10px; /* Adds a 10px inner spacing to all sides */
+padding: 10px 5px; /* Adds 10px to top & bottom and 5px to left and right */
+padding: 10px 5px 15px 5px; /* Adds 10px top, 5px right, 15px bottom, 5px left */
+    border-bottom: 3px solid #302e2e;
 }
 header {
-    background-color: #ffe4c4;
-    text-align: center;
+    background-color: #a09be7;
+       text-align: center;
     padding: 10px 0;
   }
 #hero h1 {
@@ -30,7 +30,9 @@ header {
     font-weight: 700;
     color: #4a4a4a;
   }
-  
+  .row {
+    margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  }
   nav > ul > li {
     display: inline-block;
   }
@@ -43,10 +45,14 @@ header {
 selector {
     margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
     
-        float: right;
-      }
+        float: right left;
+      
+    }
   selector {
     position: relative;
+  }
+  selector {
+    width: 80%;
   }
 
 body {
@@ -109,7 +115,7 @@ a:visited {
 
 a:active {
     /* selected link */
-    color: #994c30;
+    color: #44c4a8;
 }
 
 .button {
@@ -121,16 +127,17 @@ a:active {
     font-weight: 400;
     padding: 10px;
     border-radius: 3px;
-    border-bottom: 2px solid #994c30;
+    border-bottom: 2px solid #1e549b;
     /* width of the border, type, color */
     transition: 0.2s opacity;
 }
 
 .button.contact {
     background-color: transparent;
-    color: #25ad4e;
-    text-transform: uppercase;
-    border: 2px solid #ff7f50;
+    color: #1b7ea5;
+    text-transform: uppercase lowercase;
+    border-bottom: 2px solid #1e549b;
+    border: 2px solid 
 }
 
 .button.contact:hover {
@@ -147,3 +154,6 @@ a:active {
 .container {
     max-width: 1200px;
   }
+  .center    { text-align: center; }
+  
+  

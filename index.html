@@ -15,57 +15,66 @@
 
 <body>
     <header>
+        <div class="centerme">
+            <img src="https://via.placeholder.com/150x50?text=Logo" alt="Logo">
 
-        <center>
-            <div><img src="https://via.placeholder.com/150x50?text=Logo" alt="Logo"></div>
-            <div>
-                <nav><a href="#">Work</a>
-                    <a href="#"><a href="about.html">About</a>
-                    </a>
-                    <link rel="stylesheet" href="css/style.css">
-                    <a href="#">Contact</a>
-                </nav>
-            </div>
-        </center>
+            <nav>
+                <a href="#">Work</a>
+                <a href="about.html">About</a>
+                <a href="#">Contact</a>
+
+            </nav>
+        </div>
+
+
+
     </header>
 
     <main>
-        <h1>
-            <div>
+        <h2>
+            <div class="container">
                 Hello! I'm Jatin Pansare, a UX Designer located in Pennsylvania.</div>
 
-        </h1>
-        <p> As a UX Designer, I specialize in crafting user-centric, data-informed solutions for everyday challenges.
-        <p></p> My passion lies in problem-solving, collaborating with fellow team members, and bringing ideas to life.
-        In my role, I thrive on seamlessly blending these three elements to create impactful experiences.</p>
+        </h2>
+        <section>
+            <h4 class="container"> As a UX Designer, I specialize in crafting user-centric, data-informed solutions for
+                everyday
+                challenges.
+                My passion lies in problem-solving, collaborating with fellow team members, and bringing ideas to life.
+                In my role, I thrive on seamlessly blending these three elements to create impactful experiences.</h4>
+        </section>
+
 
         <div><!-- open row that holds (2) columns for project -->
             <div><!-- open first column (used for image) -->
                 <picture>
                     <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-                    <img src="./img/diy-expert/final-app/new-pic101.png" alt="my Image">
-                    <img src="./img/diy-expert/final-app/homepage-1.PNG" alt="">
+                    <img src="./img/diy-expert/final-app/homepage-1.png" alt="my Image">
+                    <img src="./img/diy-expert/final-app/homepage-2.png" alt="homepage">
 
                 </picture>
             </div><!-- end first column -->
             <div><!-- open second column (used for text) -->
-                <h2>DIY EXPERT</h2><!-- heading for the project -->
-                <p><!-- open paragraph -->
+                <h3>
+                    <article class="container">
+                        DIY EXPERT </article>
+                </h3><!-- heading for the project -->
+                <p class="container"><!-- open paragraph -->
                     The DIY Expert mobile app is designed to be highly responsive and
                     cater to the safety of homeowners and their neighborhoods.
-                <p></p>It offers.
-                Convenient access to cost-effective DIY security systems while
-                keeping users informed about any criminal activity in their
-                neighborhood. This project comprehensively demonstrates my end-to-end workflow, encompassing
-                research,
-                wireframing, testing, and creating an interactive prototype.
-                Using Figma.
-                .
+                    It offers.
+                    Convenient access to cost-effective DIY security systems while
+                    keeping users informed about any criminal activity in their
+                    neighborhood. This project comprehensively demonstrates my end-to-end workflow, encompassing
+                    research,
+                    wireframing, testing, and creating an interactive prototype.
+                    Using Figma.
+
                 </p><!-- end paragraph -->
                 <p><!-- open paragraph -->
-                    Write a line or 2 mentioning skills used (optional).
+
                 </p><!-- end paragraph -->
-                <a href="#" class="button">Read more</a><!-- button or link label -->
+                <div class="container"><a href="#" class="button">Read more</a></div>
             </div><!-- end second column -->
         </div><!-- end row that holds (2) columns for project -->
     </main>
@@ -73,25 +82,31 @@
 
 
     <footer>
-        <div>
-            <h3>Contact me</h3>
-        </div>
-        <p>Thank you for reading my case study!
+        <div class="container">
+
+            <div>
+                <h3>
+                    Contact me
+                </h3>
+            </div>
+
+            Thank you for reading my case study!
             Enjoying my work and interested in exploring opportunities? Let's connect! Reach out by phone at
             2154-490-4194. I'm eager to chat with you!
 
-            Prefer email communication? Feel free to drop me a message at jatinpansare@gmail
-        </p>
-        <h3></h3>
-        <nav>
-            <li><a href="about.html">About</a></li>
-            <a href="#">LinkedIn
-                <link rel="stylesheet" href="https://www.linkedin.com/in/jatinpansare/">
-            </a>
-            <a href="jatinpansare@gmail.com" class="button contact">Send me an email</a>
+            Prefer email communication? Feel free to drop me a message at jatinpansare@gmail.com
 
-        </nav>
-
+            <h3></h3>
+            <nav>
+                <div>
+                    <ul>
+                        <a href="about.html" class="button contact">About</a>
+                        <a href="https://www.linkedin.com/in/jatinpansare/" class="button contact">Linked-In </a>
+                        <a href="mailto:jatinpansare@gmail.com" class="button contact">Send me an email</a>
+                    </ul>
+                </div>
+            </nav>
+        </div>
 
     </footer>
 
