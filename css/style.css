@@ -51,10 +51,10 @@ selector {
         float: right left;
       
     }
-  selector {
+  .selector {
     position: relative;
   }
-  selector {
+  .selector {
     width: 80%;
   }
 
