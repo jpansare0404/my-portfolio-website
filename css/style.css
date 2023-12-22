@@ -74,6 +74,21 @@ selector {
   .sun {
     animation: 4s color-change infinite alternate linear;
   }
+  @keyframes cloud-move {
+    from {transform: translate(0,50px);}
+    to {transform: translate(200px,50px);}
+  }
+  @keyframes cloud-move-reverse {
+    from {transform: translate(446px,48px);}
+    to {transform: translate(100px, 48px);}
+  }
+  .cloud-front {
+    animation: 30s cloud-move infinite alternate linear;
+  }
+  
+  .cloud-back {
+    animation: 34s cloud-move-reverse infinite alternate linear;
+  }
 
 body {
     background-color: #ffffff;
