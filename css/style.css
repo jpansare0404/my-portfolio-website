@@ -16,7 +16,7 @@ header {
     background-color:rgb(135, 179, 240);
        text-align: unset;
     padding: 10px 0;
-  }
+      }
 #hero h1 {
     text-align: center; /* Centers text */
   }
@@ -25,6 +25,11 @@ header {
   }
     .center {
     text-align: center;
+  }
+  .left{
+    text-align: left;
+  }
+  .right{text-align: right;
   }
     nav > ul {
     list-style-type: none;
@@ -207,6 +212,7 @@ a:active {
   [class*="col-"] {
     float: left
   }
+  
 
   
   .center    { text-align: center; }
