@@ -17,6 +17,15 @@ header {
        text-align: unset;
     padding: 10px 0;
       }
+      header ul>li {
+        display: inline;
+        padding: 10px;
+        width: 15px;
+        margin: auto;
+      
+      }
+      
+      
 #hero h1 {
     text-align: center; /* Centers text */
   }
@@ -33,10 +42,10 @@ header {
   }
     nav > ul {
     list-style-type: none;
-    padding: 0;
+    padding: 10px;
     
   }nav > ul > li > a {
-    padding: 0 15px;
+    padding: 20px;
     text-transform: uppercase;
     font-weight: 700;
     color: #4a4a4a;
