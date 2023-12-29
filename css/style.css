@@ -239,13 +239,17 @@ header{
     margin-top: 4px;
   }
 }
-
-
 /* Large devices (1024px or larger) */
 @media only screen and (min-width: 1024px) {
 }
 /* X-large devices (1440px or larger) */
 @media only screen and (min-width: 1440px) {
+  .grid {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
 }
 /* 
 Extra-large devices (1920px or larger)
@@ -254,6 +258,9 @@ Extra-large devices (1920px or larger)
 }
 img{
   width: 100%;
+  height: auto;
+  justify-content: left;
+ 
 }
 .logo-wrapper{
   width: 100px;
@@ -262,3 +269,8 @@ img{
   max-width: 400px;
   margin: auto;
 }
+.ufo-sec .text-container {
+    position: relative;
+}
+
+
