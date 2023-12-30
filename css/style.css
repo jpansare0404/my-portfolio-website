@@ -258,3 +258,15 @@ img{
 .ufo-sec .text-container {
     position: relative;
 }
+
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #7867c4;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
