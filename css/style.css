@@ -5,8 +5,10 @@
 header {
     background-color: #7867c4;
     padding: 10px;/* Adds a 10px inner spacing to all sides */
-   
     border-bottom: 3px solid #302e2e;
+    display: flex;/* Updated for better alignment */
+    justify-content: space-between;
+    align-items: center;
 }
 
       header ul>li {
@@ -34,11 +36,10 @@ header {
   }
     nav > ul {
     list-style-type: none;
-    padding: 10px;
+    padding: 0; /* Reset padding */
     
   }nav > ul > li > a {
-    padding: 20px;
-    text-transform: uppercase;
+    text-decoration: none;
     font-weight: 700;
     color: #4a4a4a;
   }
@@ -47,12 +48,10 @@ header {
   }
   nav > ul > li {
     display: inline-block;
+    margin-right: 10px; /* Space between menu items */
   }
 
 /* Layout styling */
-.container {
-  padding: 0 15px;
-}
     
 selector {
     margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
@@ -195,42 +194,29 @@ a:active {
     text-decoration: none;
 }
 .container {
-    max-width: 1200px;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-   
+  max-width: 1200px;
+  margin: 0 auto; /* Centered container */
+  padding: 0 15px;}
+ 
+  /* Responsive Grid */
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
   .row::after {
     content: "";
     clear: both;
     display: table;
   }
-
-  [class*="col-"] {
-    float: left
-  }
-  
-
-  
+    
   .center    { text-align: center; }
-  
-header{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 
-}
 @media only screen and (min-width: 640px) {
   header {
     text-align: unset;
     padding: 20px 0 13px;
   }
-  .col-md-6 {
-    width: 50%;
+  .col-md-6 { width: 50%;
   }
 
   nav {
@@ -272,5 +258,3 @@ img{
 .ufo-sec .text-container {
     position: relative;
 }
-
-
