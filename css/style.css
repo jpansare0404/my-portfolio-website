@@ -219,6 +219,9 @@ a:active {
   .col-md-6 { width: 50%;
   }
 
+  .col-md-3 {
+    width: calc(100% / 4);
+  }
   nav {
     width: auto;
     float: right;
