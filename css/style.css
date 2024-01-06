@@ -1,227 +1,244 @@
-
 * {
-    box-sizing: border-box;
-  }
-header {
-    background-color: #7867c4;
-    padding: 10px;/* Adds a 10px inner spacing to all sides */
-    border-bottom: 3px solid #302e2e;
-    display: flex;/* Updated for better alignment */
-    justify-content: space-between;
-    align-items: center;
+  box-sizing: border-box;
 }
 
-      header ul>li {
-        display: inline;
-        padding: 10px;
-        width: 15px;
-        margin: auto;
-      
-      }
-      
-      
+header {
+  background-color: #7867c4;
+  padding: 10px; /* Adds a 10px inner spacing to all sides */
+  border-bottom: 3px solid #302e2e;
+  display: flex; /* Updated for better alignment */
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul > li {
+  display: inline;
+  padding: 10px;
+  width: 15px;
+  margin: auto;
+}
+
 #hero h1 {
-    text-align: center; /* Centers text */
-  }
-  #hero span {
-    display: block;
-  }
-    .center {
-    text-align: center;
-  }
-  .left{
-    text-align: left;
-  }
-  .right{text-align: right;
-  }
-    nav > ul {
-    list-style-type: none;
-    padding: 0; /* Reset padding */
-    
-  }nav > ul > li > a {
-    text-decoration: none;
-    font-weight: 700;
-    color: #4a4a4a;
-  }
-  .row {
-    margin: 25px 0; /* 25px top and bottom, 0 left and right */
-  }
-  nav > ul > li {
-    display: inline-block;
-    margin-right: 10px; /* Space between menu items */
-  }
+  text-align: center; /* Centers text */
+}
+#hero span {
+  display: block;
+}
+.center {
+  text-align: center;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0; /* Reset padding */
+}
+nav > ul > li > a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+nav > ul > li {
+  display: inline-block;
+  margin-right: 10px; /* Space between menu items */
+}
 
 /* Layout styling */
-    
-selector {
-    margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
-    
-        float: right left;
-      
-    }
-  .selector {
-    position: relative;
-  }
-  .selector {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-  }
-  @keyframes color-change {
-    from {fill: #edc655;}
-    to {fill: #f76414;}
-  }
-  @keyframes color-change {
-    0% {fill: #edc655;}
-    50% {fill: #fcffad;}
-    100% {fill: #f76414;}
-  }
-  .sun {
-    animation: 4s color-change infinite alternate linear;
-  }
-  @keyframes cloud-move {
-    from {transform: translate(0,50px);}
-    to {transform: translate(200px,50px);}
-  }
-  @keyframes cloud-move-reverse {
-    from {transform: translate(446px,48px);}
-    to {transform: translate(100px, 48px);}
-  }
-  .cloud-front {
-    animation: 30s cloud-move infinite alternate linear;
-  }
-  
-  .cloud-back {
-    animation: 34s cloud-move-reverse infinite alternate linear;
-  }
 
-body {
-    background-color: #ffffff;
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
-    /* Sets the font size to 16px */
-    font-weight: 300;
-    /* Sets the font weight to 300 */
-    line-height: 1.6;
-    /* Sets the line-height to 1.6 * the font-size */
-    color: #4a4a4a;
+selector {
+  margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
+
+  float: right left;
+}
+.selector {
+  position: relative;
+}
+.selector {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+@keyframes color-change {
+  from {
+    fill: #edc655;
+  }
+  to {
+    fill: #f76414;
+  }
+}
+@keyframes color-change {
+  0% {
+    fill: #edc655;
+  }
+  50% {
+    fill: #fcffad;
+  }
+  100% {
+    fill: #f76414;
+  }
+}
+.sun {
+  animation: 4s color-change infinite alternate linear;
+}
+@keyframes cloud-move {
+  from {
+    transform: translate(0, 50px);
+  }
+  to {
+    transform: translate(200px, 50px);
+  }
+}
+@keyframes cloud-move-reverse {
+  from {
+    transform: translate(446px, 48px);
+  }
+  to {
+    transform: translate(100px, 48px);
+  }
+}
+.cloud-front {
+  animation: 30s cloud-move infinite alternate linear;
 }
 
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  /* Sets the font size to 16px */
+  font-weight: 300;
+  /* Sets the font weight to 300 */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 * the font-size */
+  color: #4a4a4a;
+}
 
 h1,
 h2,
 h3,
 h4 {
-    line-height: 1.4;
+  line-height: 1.4;
 }
 
 h1 {
-    font-size: 2.75em;
-    font-weight: 700;
+  font-size: 2.75em;
+  font-weight: 700;
 }
 
 h2 {
-    font-size: 2.25em;
-    font-weight: 700;
+  font-size: 2.25em;
+  font-weight: 700;
 }
 
 h3 {
-    font-size: 1.75em;
-    font-weight: 400;
+  font-size: 1.75em;
+  font-weight: 400;
 }
 
 h4 {
-    font-size: 1.35em;
-    font-weight: 400;
+  font-size: 1.35em;
+  font-weight: 400;
 }
 
 a {
-    color: #3eb82e;
-    text-decoration: none;
-    /* No underlining */
+  color: #3eb82e;
+  text-decoration: none;
+  /* No underlining */
 }
 
 a:hover {
-    color: #2854b4;
-    text-decoration: underline;
-    /* Underlining when hovering over a link */
+  color: #2854b4;
+  text-decoration: underline;
+  /* Underlining when hovering over a link */
 }
 
 a:visited {
-    /* visited link */
-    color: #fafcfb;
+  /* visited link */
+  color: #fafcfb;
 }
 
 a:active {
-    /* selected link */
-    color: #44c4a8;
+  /* selected link */
+  color: #44c4a8;
 }
 
 .button {
-    display: inline-block;
-    /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-    background-color: rgb(101, 137, 190);
-    color: #ffffff;
-    /* needed to override the default link color */
-    font-weight: 400;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 3px;
-    border-bottom: 2px solid #1e549b;
-    /* width of the border, type, color */
-    transition: 0.2s opacity;
-    transition-property: opacity;
-    transition: [transition-property] [transition-duration] [transition-timing-function] [transition-delay];
-  }
+  display: inline-block;
+  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: rgb(101, 137, 190);
+  color: #ffffff;
+  /* needed to override the default link color */
+  font-weight: 400;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #1e549b;
+}
 
 .button.contact {
-    background-color: transparent;
-    color: #1b7ea5;
-    text-transform: uppercase lowercase;
-    border-bottom: 2px solid #1e549b;
-    border: 2px solid 
+  background-color: transparent;
+  color: #1b7ea5;
+  text-transform: uppercase lowercase;
+  border-bottom: 2px solid #1e549b;
+  border: 2px solid;
 }
 
 .button.contact:hover {
-    background-color: #3978d8;
-    color: #ffffff;
+  background-color: #3978d8;
+  color: #ffffff;
 }
 
-
 .button:hover {
-    opacity: 0.8;
-    /* Reduces the opacity of the button to 80% */
-    text-decoration: none;
+  opacity: 0.8;
+  /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
 }
 .container {
   max-width: 1200px;
   margin: 0 auto; /* Centered container */
-  padding: 0 15px;}
- 
-  /* Responsive Grid */
-[class*="col-"] {
-  float: left;
-  padding: 15px;
+  padding: 0 15px;
 }
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-    
-  .center    { text-align: center; }
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.center {
+  text-align: center;
+}
 
 @media only screen and (min-width: 640px) {
+  /* Responsive Grid */
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+
   header {
     text-align: unset;
     padding: 20px 0 13px;
   }
-  .col-md-6 { width: 50%;
+
+  .col-md-6 {
+    width: 50%;
   }
 
   .col-md-3 {
     width: calc(100% / 4);
   }
+
   nav {
     width: auto;
     float: right;
@@ -238,27 +255,34 @@ a:active {
     max-width: 1440px;
     padding-left: 48px;
     padding-right: 48px;
-}
+  }
 }
 /* 
 Extra-large devices (1920px or larger)
 */
 @media only screen and (min-width: 1920px) {
 }
-img{
+
+img {
   width: 100%;
   height: auto;
   justify-content: left;
- 
 }
-.logo-wrapper{
+.logo-wrapper {
   width: 100px;
 }
-.img-wrapper{
+.img-wrapper {
   max-width: 400px;
   margin: auto;
 }
 .ufo-sec .text-container {
-    position: relative;
+  position: relative;
 }
 
+.centerme {
+  text-align: center;
+}
+
+.custom-p-size {
+  font-size: 20px;
+}
