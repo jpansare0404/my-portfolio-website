@@ -4,11 +4,11 @@
 
 header {
   background-color: #7867c4;
-  padding: 10px; /* Adds a 10px inner spacing to all sides */
+  padding: 10px;  /* Adds a 10px inner spacing to all sides */
   border-bottom: 3px solid #302e2e;
   display: flex; /* Updated for better alignment */
   justify-content: space-between;
-  align-items: center;
+
 }
 
 header ul > li {
@@ -49,7 +49,17 @@ nav > ul > li {
   display: inline-block;
   margin-right: 10px; /* Space between menu items */
 }
-
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,127,80,0.5);
+}
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
 /* Layout styling */
 
 selector {
@@ -218,8 +228,7 @@ a:active {
 .center {
   text-align: center;
 }
-
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 641px) {
   /* Responsive Grid */
   [class*="col-"] {
     float: left;
@@ -243,6 +252,12 @@ a:active {
     width: auto;
     float: right;
     margin-top: 4px;
+  }
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+  .navtoggle li:last-child {
+    display: none;
   }
 }
 /* Large devices (1024px or larger) */
@@ -270,6 +285,7 @@ img {
 }
 .logo-wrapper {
   width: 100px;
+  
 }
 .img-wrapper {
   max-width: 400px;
