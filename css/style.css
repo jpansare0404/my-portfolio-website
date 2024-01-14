@@ -4,11 +4,10 @@
 
 header {
   background-color: #7867c4;
-  padding: 10px;  /* Adds a 10px inner spacing to all sides */
+  padding: 10px; /* Adds a 10px inner spacing to all sides */
   border-bottom: 3px solid #302e2e;
   display: flex; /* Updated for better alignment */
   justify-content: space-between;
-
 }
 
 header ul > li {
@@ -52,12 +51,12 @@ nav > ul > li {
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid rgba(255,127,80,0.5);
+  border-top: 1px solid rgba(255, 127, 80, 0.5);
 }
-.navtoggle.responsive li:last-child  {
+.navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
 /* Layout styling */
@@ -65,7 +64,7 @@ nav > ul > li {
 selector {
   margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
 
-  float: right left;
+  float: right;
 }
 .selector {
   position: relative;
@@ -153,7 +152,7 @@ a:active {
 .button.contact {
   background-color: transparent;
   color: #1b7ea5;
-  text-transform: uppercase lowercase;
+  text-transform: uppercase; /* or lowercase, capitalize */
   border-bottom: 2px solid #1e549b;
   border: 2px solid;
 }
@@ -241,9 +240,6 @@ img {
 }
 .logo-wrapper {
   width: 100px;
-
-  
-  
 }
 .img-wrapper {
   max-width: 400px;
