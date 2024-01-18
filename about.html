@@ -22,17 +22,26 @@
 
   <body>
     <header>
-      <div class="logo-wrapper">
-        <img src="./img/diy-expert/final-app/Neewnewnewlogo.png" alt="Logo" />
-      </div>
-      <nav class="nav-links">
-        <div id="contact">
+      <div class="navtoggle" id="myNavtoggle">
+        <div class="logo-wrapper">
+          <img src="./img/diy-expert/final-app/Neewnewnewlogo.png" alt="Logo" />
+        </div>
+  
+        <nav class="nav-links">
           <ul>
             <li><a href="project.html">Work </a></li>
             <li><a href="about.html">About Me</a></li>
             <li><a href="#contact">Contact </a></li>
+            <li>
+              <a
+                href="javascript:void(0);"
+                class="icon"
+                onclick="menuToggle(myNavtoggle)"
+                ><i class="fas fa-bars"></i
+              ></a>
+            </li>
           </ul>
-        </div>
+     
       </nav>
     </header>
 
