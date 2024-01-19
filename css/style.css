@@ -220,6 +220,9 @@ a:active {
   .col-md-3 {
     width: calc(100% / 4);
   }
+  .col-md-4 {
+    width: calc(100%/2);
+  }
 
   nav {
     width: auto;
