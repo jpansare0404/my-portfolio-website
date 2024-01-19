@@ -218,7 +218,7 @@ a:active {
   }
 
   .col-md-3 {
-    width: calc(100% / 4);
+    width: calc(100%/4);
   }
 
   nav {
